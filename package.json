@@ -1,13 +1,16 @@
 {
   "name": "react-use-classes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly create classNames with modifiers",
   "main": "lib/useClasses.js",
   "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
     "start": "tsc -watch",
     "build": "tsc",
     "link": "npm link"
   },
+  "repository": "https://github.com/rihok/react-use-classes",
   "keywords": [
     "react",
     "reactjs",
@@ -22,6 +25,9 @@
   "author": "Riho Kroll",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
   }
 }

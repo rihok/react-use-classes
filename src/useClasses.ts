@@ -8,6 +8,6 @@
  * @param {string} [separator='--'] By default the separator is -- change this if you'd prefer another separator
  * @returns {string} Final className
  */
-export default function useClasses(base: string, modifiers: { [modifier: string]: boolean }, separator: string = '--'): string {
-    return Object.keys(modifiers).reduce((value = base, modifier) => value += ' ' + base + separator + modifier);
+export default function useClasses(base: string, modifiers: { [modifier: string]: any }, separator: string = '--'): string {
+    return base + Object.keys(modifiers).map((key) => modifiers[key] ? ' ' + base + separator + key : '').join('');
 }

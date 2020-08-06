@@ -8,5 +8,5 @@
  * @returns {string} Final className
  */
 export default function useClasses(base: string, modifiers: {
-    [modifier: string]: boolean;
+    [modifier: string]: any;
 }, separator?: string): string;
