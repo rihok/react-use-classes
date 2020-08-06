@@ -1,0 +1,27 @@
+{
+  "name": "react-use-classes",
+  "version": "0.1.0",
+  "description": "Quickly create classNames with modifiers",
+  "main": "lib/useClasses.js",
+  "scripts": {
+    "start": "tsc -watch",
+    "build": "tsc",
+    "link": "npm link"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "useClasses",
+    "use-classes",
+    "className",
+    "classNames",
+    "BEM",
+    "hook",
+    "hooks"
+  ],
+  "author": "Riho Kroll",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
