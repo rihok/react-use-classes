@@ -4,7 +4,7 @@ Quickly create a className string from base + modifiers
 
 ```js
 const red = true;
-const [selected, setSelected] = useState(false);
+const [selected, setSelected] = useState(true);
 
 const boxClasses = useClasses("box", {
   red,
