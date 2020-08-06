@@ -1,8 +1,12 @@
 {
   "name": "react-use-classes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quickly create classNames with modifiers",
   "main": "lib/useClasses.js",
+  "files": [
+    "lib/useClasses.js",
+    "lib/useClasses.d.ts"
+  ],
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch",
